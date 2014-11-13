@@ -1,8 +1,14 @@
-<h2>Beer Links</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='http://www.21st-amendment.com/'>21st Amendment (San Francisco, CA)</a></li>
-<li><a href='http://www.schlenkerla.de/indexe.html'>Aecht Schlenkerla (Germany)</a></li>
+var beer = [
+  {
+    "name":"21st Amendment",
+    "city":"San Francisco, CA",
+    "link"='http://www.21st-amendment.com/'
+  }
+  {
+    "name":"Aecht Schlenkerla",
+    "city":"Germany",
+    "link":'http://www.schlenkerla.de/indexe.html'
+  }
 <li><a href='http://www.alaskanbeer.com/'>Alaskan (Juneau, AK)</a></li>
 <li><a href='http://www.alpine-brewing.com/'>Alpine (Oroville, WA)</a></li>
 <li><a href='http://www.anchorbrewing.com/'>Anchor (San Francisco, CA)</a></li>
@@ -72,3 +78,4 @@
 <li><a href='http://www.whistlerbeer.com/'>Whistler (Whistler, BC)</a></li>
 <li><a href='http://www.widmer.com/'>Widmer (Portland, OR)</a></li>
 </ul>
+];
