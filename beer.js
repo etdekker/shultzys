@@ -9,31 +9,131 @@ var beer = [
     "city":"Germany",
     "link":'http://www.schlenkerla.de/indexe.html'
   }
-<li><a href='http://www.alaskanbeer.com/'>Alaskan (Juneau, AK)</a></li>
-<li><a href='http://www.alpine-brewing.com/'>Alpine (Oroville, WA)</a></li>
-<li><a href='http://www.anchorbrewing.com/'>Anchor (San Francisco, CA)</a></li>
-<li><a href='http://www.avbc.com/'>Anderson Valley (Boonville, CA)</a></li>
-<li><a href='http://www.averybrewing.com/'>Avery (Boulder, CO)</a></li>
-<li><a href='http://en.ayinger-bier.de/?pid=263'>Ayinger (Germany)</a></li>
-<li><a href='http://www.baronbeer.com/'>Baron (Seattle, WA)</a></li>
-<li><a href='http://www.bass.com/'>Bass Ale (UK)</a></li>
-<li><a href='http://www.bayernbrewery.com/'>Bayern (Missoula, MT)</a></li>
-<li><a href='http://www.bearrepublic.com/ourbeers.php'>Bear Republic (Cloverdale, CA)</a></li>
-<li><a href='http://www.becksbeer.com/Default.aspx'>Beck's (Germany)</a></li>
-<li><a href='http://www.bigalbrewing.com/'>Big Al Brewing (Seattle, WA)</a></li>
-<li><a href='http://www.bigskybrew.com/'>Big Sky (Missoula, MT)</a></li>
-<li><a href='http://www.bitburger.com/'>Bitburger (Germany)</a></li>
-<li><a href='http://www.bbaybrewery.com/'>Boundary Bay (Bellingham, WA)</a></li>
-<li><a href='http://www.bridgeportbrew.com/index.php'>Bridgeport (Portland, OR)</a></li>
-<li><a href='http://www.chuckanutbreweryandkitchen.com/beer.html'>Chuckanut (Bellingham, WA)</a></li>
-<li><a href='http://czechvar.com/web/index.html'>Czechvar (Czech Republic)</a></li>
-<li><a href='http://www.deschutesbrewery.com/'>Deschutes (Bend, OR)</a></li>
-<li><a href='http://www.dinkelacker.de/index2.php'>Dinkel Acker (Germany)</a></li>
-<li><a href='http://www.dogfish.com/'>Dogfish Head (Milton, DE)</a></li>
-<li><a href='http://www.einbecker.com/'>Einbecker (Germany)</a></li>
-<li><a href='http://www.elysianbrewing.com/'>Elysian (Seattle, WA)</a></li>
-<li><a href='http://www.erdinger.com/'>Erdinger (Germany)</a></li>
-<li><a href='http://www.firestonewalker.com/'>Firestone Walker (Paso Robles, CA)</a></li>
+  {
+    "name":"Alaskan",
+    "city":"Juneau, AK",
+    "link":'http://www.alaskanbeer.com/'
+  }
+  {
+    "name":"Alpine",
+    "city":"Oroville, WA",
+    "link":'http://www.alpine-brewing.com/'
+  }
+  {
+    "name":"Anchor",
+    "city":"San Francisco, CA",
+    "link":'http://www.anchorbrewing.com/'
+  }
+  {
+    "name":"Anderson Valley", 
+    "city":"Boonville, CA", 
+    "link":'http://www.avbc.com/'
+  }
+  {
+    "name":"Avery", 
+    "city":"Boulder, CO",
+    "link":'http://www.averybrewing.com/'
+  }
+  {
+    "name":"Ayinger",
+    "city":"Germany",
+    "link":'http://en.ayinger-bier.de/?pid=263'
+  }
+  {
+    "name":"Baron",
+    "city":"Seattle, WA",
+    "link":'http://www.baronbeer.com/'
+  }
+  {
+    "name":"Bass Ale",
+    "city":"UK",
+    "link":'http://www.bass.com/'
+  }
+  {
+    "name":"Bayern",
+    "city":"Missoula, MT",
+    "link":'http://www.bayernbrewery.com/'
+  }
+  {
+    "name":"Bear Republic",
+    "city":"Cloverdale, CA",
+    "link":'http://www.bearrepublic.com/ourbeers.php'
+  }
+  {
+    "name":"Beck's",
+    "city":"Germany",
+    "link":'http://www.becksbeer.com/Default.aspx'
+  }
+  {
+    "name":"Big Al Brewing",
+    "city":"Seattle, WA",
+    "link":'http://www.bigalbrewing.com/'
+  }
+  {
+    "name":"Big Sky",
+    "city":"Missoula, MT",
+    "link":'http://www.bigskybrew.com/'
+  }
+  {
+    "name":"Bitburger",
+    "city":"Germany",
+    "link":'http://www.bitburger.com/'
+  }
+  {
+    "name":"Boundary Bay",
+    "city":"Bellingham, WA",
+    "link":'http://www.bbaybrewery.com/'
+  }
+  {
+    "name":"Bridgeport",
+    "city":"Portland, OR",
+    "link":'http://www.bridgeportbrew.com/index.php'
+  }
+  {
+    "name":"Chuckanut",
+    "city":"Bellingham, WA",
+    "link":'http://www.chuckanutbreweryandkitchen.com/beer.html'
+  }
+  {
+    "name":"Czechvar",
+    "city":"Czech Republic",
+    "link":'http://czechvar.com/web/index.html'
+  }
+  {
+    "name":"Deschutes",
+    "city":"Bend, OR",
+    "link":'http://www.deschutesbrewery.com/'
+  }
+  {
+    "name":"Dinkel Acker",
+    "city":"Germany",
+    "link":'http://www.dinkelacker.de/index2.php'
+  }
+  {
+    "name":"Dogfish Head",
+    "city":"Milton, DE",
+    "link":'http://www.dogfish.com/'
+  }
+  {
+    "name":"Einbecker",
+    "city":"Germany",
+    "link":'http://www.einbecker.com/'
+  }
+  {
+    "name":"Elysian",
+    "city":"Seattle, WA",
+    "link":'http://www.elysianbrewing.com/'
+  }
+  {
+    "name":"Erdinger",
+    "city":"Germany",
+    "link":'http://www.erdinger.com/'
+  }
+  {
+    "name":"Firestone Walker",
+    "city":"Paso Robles, CA",
+    "link":'http://www.firestonewalker.com/'
+  }
 <li><a href='http://www.franziskaner.com/'>Franziskaner (Germany)</a></li>
 <li><a href='http://www.fullers-ales.com/'>Fuller's (UK)</a></li>
 <li><a href='http://www.greatdivide.com/'>Great Divide (Denver, CO)</a></li>
