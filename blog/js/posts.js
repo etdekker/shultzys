@@ -30,3 +30,7 @@ var posts = [
 		"date": "3/14/14"
 	}
 ];
+
+posts.forEach(function(post) {
+    post.date = new Date(post.date);
+});
