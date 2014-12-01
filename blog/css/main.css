@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	height: 50vw;
+	max-height: 400px;
+}
+
+p {
+	margin-top: 15px;
+}
+
+#accordion {
+	padding-left: 30px;
+	padding-right: 30px;
+}
