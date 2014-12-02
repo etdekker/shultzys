@@ -2,7 +2,7 @@ var posts = [
 	{
 		"number":5,
 		"title":"OktoBEERfest Party",
-		"images":["oktobeerfest1.jpg", "oktobeerfest2.jpg", "oktobeerfest.jpg"],
+		"images":["oktobeerfest1.jpg", "oktobeerfest2.jpg", "oktobeerfest3.jpg"],
 		"body":"Well, as promised, the OktoBEERfest party last Saturday night was full of all kinds of Okto fun! A lot of beer was consumed, there were lederhosen and dirndl sightings, a wooden keg was tapped (and consumed) and some steins were hoisted.<br>A good time was had by all, but the best news of all is, we still have lots of delicious #oktobeerfest beers to drink!! Check out what's pouring by following us @shultzys, tell us what you're enjoying now or even post a photo of your liter using #oktobeerfest.",
 		"date": "10/7/14"
 	},
@@ -38,9 +38,4 @@ var posts = [
 
 posts.forEach(function(post) {
     post.date = new Date(post.date);
-});
-
-var images = [];
-posts.forEach(function(post) {
-	images.push(post.images);
 });

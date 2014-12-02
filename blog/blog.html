@@ -21,7 +21,9 @@
 						</h4>
 					</div>
 					<div id="collapse{{post.number}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{post.number}}">
-						<img ng-repeat="image in images" src="{{image}}"><img>
+						<div ng-repeat="image in post.images">
+							<img src="img/{{image}}"/>
+						</div>
 						{{post.body}}
 					</div>
 				</div>
