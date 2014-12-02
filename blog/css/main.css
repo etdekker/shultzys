@@ -9,10 +9,14 @@ img {
 	margin: auto;
 	height: 50vw;
 	max-height: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 p {
 	margin-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #accordion {
