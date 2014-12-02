@@ -40,4 +40,7 @@ posts.forEach(function(post) {
     post.date = new Date(post.date);
 });
 
-var nums = ["One", "Two", "Three", "Four", "Five"];
+var images = [];
+posts.forEach(function(post) {
+	images.push(post.images);
+});
