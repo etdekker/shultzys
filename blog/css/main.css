@@ -19,6 +19,10 @@ p {
 	padding-right: 10px;
 }
 
+.panel-group .panel {
+	margin-bottom: 10px;
+}
+
 #accordion {
 	padding-left: 30px;
 	padding-right: 30px;
