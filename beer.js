@@ -134,48 +134,219 @@ var beer = [
     "city":"Paso Robles, CA",
     "link":'http://www.firestonewalker.com/'
   }
-<li><a href='http://www.franziskaner.com/'>Franziskaner (Germany)</a></li>
-<li><a href='http://www.fullers-ales.com/'>Fuller's (UK)</a></li>
-<li><a href='http://www.greatdivide.com/'>Great Divide (Denver, CO)</a></li>
-<li><a href='http://www.guinness.com/'>Guinness (Ireland)</a></li>
-<li><a href='http://www.hofbraeu-muenchen.de/index.html'>HB Munchen (Germany)</a></li>
-<li><a href='http://www.thedifferenceisinside.com/'>Hacker-Pschorr (Germany)</a></li>
-<li><a href='http://www.halesbrewery.com/'>Hale's Ales (Seattle, WA)</a></li>
-<li><a href='http://www.hoegaarden.com/'>Hoegaarden (Belgium)</a></li>
-<li><a href='http://www.koestritzer.de/home.html'>Kostritzer (Germany)</a></li>
-<li><a href='http://www.kaltenberg.de/'>König Ludwig (Germany)</a></li>
-<li><a href='http://www.lagunitas.com/'>Lagunitas (Petaluma, CA)</a></li>
-<li><a href='http://www.langcreekbrewery.com/'>Lang Creek (Marion, MT)</a></li>
-<li><a href='http://www.laughingdogbrewing.com/'>Laughing Dog (Sandpoint, ID)</a></li>
-<li><a href='http://www.lazyboybrewing.com/'>Lazy Boy (Everett, WA)</a></li>
-<li><a href='http://www.leffe.be/index.html'>Leffe (Belgium)</a></li>
-<li><a href='http://www.lefthandbrewing.com/'>Left Hand (Longmont, CO)</a></li>
-<li><a href='http://www.maredsous-usa.com/'>Maredsous (Belgium)</a></li>
-<li><a href='http://maritimebrewery.ypguides.net/'>Maritime Pacific (Seattle, WA)</a></li>
-<li><a href='http://www.ninkasibrewing.com/'>Ninkasi (Eugene, OR)</a></li>
-<li><a href='http://www.northcoastbrewing.com/home.htm'>North Coast (Fort Bragg, CA)</a></li>
-<li><a href='http://www.oldspeckledhen.co.uk/'>Old Speckled Hen (UK)</a></li>
-<li><a href='http://www.ommegang.com/'>Ommegang (Cooperstown, NY)</a></li>
-<li><a href='http://www.paulaner.com/home.html'>Paulaner (Germany)</a></li>
-<li><a href='http://www.pikebrewing.com/'>Pike (Seattle, WA)</a></li>
-<li><a href='http://www.radeberger.de/index_en.html'>Radeberger (Germany)</a></li>
-<li><a href='http://www.rogue.com/'>Rogue (Ashland, OR)</a></li>
-<li><a href='http://www.roslynbrewery.com/'>Roslyn (Roslyn, WA)</a></li>
-<li><a href='http://www.schoonerexact.com/'>Schooner Exact (Seattle, WA)</a></li>
-<li><a href='http://www.scuttlebuttbrewing.com/Scuttlebutt_Brewing_Co./home.html'>Scuttlebutt (Everett, WA)</a></li>
-<li><a href='http://www.sierranevada.com/'>Sierra Nevada (Chico, CA)</a></li>
-<li><a href='http://www.fallsbrew.com/our_beers.html'>Snoqualmie (Snoqualmie, WA)</a></li>
-<li><a href='http://www.spatenusa.com/'>Spaten (Germany)</a></li>
-<li><a href='http://www.goodbeer.com/'>Speakeasy (San Francisco, CA)</a></li>
-<li><a href='http://www.stonebrew.com/'>Stone (Escondido, CA)</a></li>
-<li><a href='http://www.terminalgravitybrewing.com/'>Terminal Gravity (Enterprise, OR)</a></li>
-<li><a href='http://www.veltins.com/'>Veltins (Germany)</a></li>
-<li><a href='http://www.victorybeer.com/'>Victory (Downington, PA)</a></li>
-<li><a href='http://walkingmanbrewing.com/'>Walking Man (Stevenson, WA)</a></li>
-<li><a href='http://www.warsteiner-usa.com/'>Warsteiner (Germany)</a></li>
-<li><a href='http://www.brauerei-weihenstephan.de/index.php?page=home_2_1&'>Weihenstephan (Germany)</a></li>
-<li><a href='http://www.weltenburger.de/'>Weltenburger Kloster (Germany)</a></li>
-<li><a href='http://www.whistlerbeer.com/'>Whistler (Whistler, BC)</a></li>
-<li><a href='http://www.widmer.com/'>Widmer (Portland, OR)</a></li>
-</ul>
+  {
+    "name":"Franziskaner",
+    "city":"Germany",
+    "link":'http://www.franziskaner.com/'
+  }
+  {
+    "name":"Fuller's",
+    "city":"UK",
+    "link":'http://www.fullers-ales.com/'
+  }
+  {
+    "name":"Great Divide",
+    "city":"Denver, CO",
+    "link":'http://www.greatdivide.com/'
+  }
+  {
+    "name":"Guinness",
+    "city":"Ireland",
+    "link":'http://www.guinness.com/'
+  }
+  {
+    "name":"HB Munchen",
+    "city":"Germany",
+    "link":'http://www.hofbraeu-muenchen.de/index.html'
+  }
+  {
+    "name":"Hacker-Pschorr",
+    "city":"Germany",
+    "link":'http://www.thedifferenceisinside.com/'
+  }
+  {
+    "name":"Hale's Ales",
+    "city":"Seattle, WA",
+    "link":'http://www.halesbrewery.com/'
+  }
+  {
+    "name":"Hoegaarden",
+    "city":"Belgium",
+    "link":'http://www.hoegaarden.com/'
+  }
+  {
+    "name":"Kostritzer",
+    "city":"Germany",
+    "link":'http://www.koestritzer.de/home.html'
+  }
+  {
+    "name":"König Ludwig",
+    "city":"Germany",
+    "link":'http://www.kaltenberg.de/'
+  }
+  {
+    "name":"Lagunitas",
+    "city":"Petaluma, CA",
+    "link":'http://www.lagunitas.com/'
+  }
+  {
+    "name":"Lang Creek",
+    "city":"Marion, MT",
+    "link":'http://www.langcreekbrewery.com/'
+  }
+  {
+    "name":"Laughing Dog",
+    "city":"Sandpoint, ID",
+    "link":'http://www.laughingdogbrewing.com/'
+  }
+  {
+    "name":"Lazy Boy",
+    "city":"Everett, WA",
+    "link":'http://www.lazyboybrewing.com/'
+  }
+  {
+    "name":"Leffe",
+    "city":"Belgium",
+    "link":'http://www.leffe.be/index.html'
+  }
+  {
+    "name":"Left Hand",
+    "city":"Longmont, CO",
+    "link":'http://www.lefthandbrewing.com/'
+  }
+  {
+    "name":"Maredsous",
+    "city":"Belgium",
+    "link":'http://www.maredsous-usa.com/'
+  }
+  {
+    "name":"Maritime Pacific",
+    "city":"Seattle, WA",
+    "link":'http://maritimebrewery.ypguides.net/'
+  }
+  {
+    "name":"Ninkasi",
+    "city":"Eugene, OR",
+    "link":'http://www.ninkasibrewing.com/'
+  }
+  {
+    "name":"North Coast",
+    "city":"Fort Bragg, CA",
+    "link":'http://www.northcoastbrewing.com/home.htm'
+  }
+  {
+    "name":"Old Speckled Hen",
+    "city":"UK",
+    "link":'http://www.oldspeckledhen.co.uk/'
+  }
+  {
+    "name":"Ommegang",
+    "city":"Cooperstown, NY",
+    "link":'http://www.ommegang.com/'
+  }
+  {
+    "name":"Paulaner",
+    "city":"Germany",
+    "link":'http://www.paulaner.com/home.html'
+  }
+  {
+    "name":"Pike",
+    "city":"Seattle, WA",
+    "link":'http://www.pikebrewing.com/'
+  }
+  {
+    "name":"Radeberger",
+    "city":"Germany",
+    "link":'http://www.radeberger.de/index_en.html'
+  }
+  {
+    "name":"Rogue",
+    "city":"Ashland, OR",
+    "link":'http://www.rogue.com/'
+  }
+  {
+    "name":"Roslyn",
+    "city":"Roslyn, WA",
+    "link":'http://www.roslynbrewery.com/'
+  }
+  {
+    "name":"Schooner Exact",
+    "city":"Seattle, WA",
+    "link":'http://www.schoonerexact.com/'
+  }
+  {
+    "name":"Scuttlebutt",
+    "city":"Everett, WA",
+    "link":'http://www.scuttlebuttbrewing.com/Scuttlebutt_Brewing_Co./home.html'
+  }
+  {
+    "name":"Sierra Nevada",
+    "city":"Chico, CA",
+    "link":'http://www.sierranevada.com/'
+  }
+  {
+    "name":"Snoqualmie",
+    "city":"Snoqualmie, WA",
+    "link":'http://www.fallsbrew.com/our_beers.html'
+  }
+  {
+    "name":"Spaten",
+    "city":"Germany",
+    "link":'http://www.spatenusa.com/'
+  }
+  {
+    "name":"Speakeasy",
+    "city":"San Francisco, CA",
+    "link":'http://www.goodbeer.com/'
+  }
+  {
+    "name":"Stone",
+    "city":"Escondido, CA",
+    "link":'http://www.stonebrew.com/'
+  }
+  {
+    "name":"Terminal Gravity",
+    "city":"Enterprise, OR",
+    "link":'http://www.terminalgravitybrewing.com/'
+  }
+  {
+    "name":"Veltins",
+    "city":"Germany",
+    "link":'http://www.veltins.com/'
+  }
+  {
+    "name":"Victory",
+    "city":"Downington, PA",
+    "link":'http://www.victorybeer.com/'
+  }
+  {
+    "name":"Walking Man",
+    "city":"Stevenson, WA",
+    "link":'http://walkingmanbrewing.com/'
+  }
+  {
+    "name":"Warsteiner",
+    "city":"Germany",
+    "link":'http://www.warsteiner-usa.com/'
+  }
+  {
+    "name":"Weihenstephan",
+    "city":"Germany",
+    "link":'http://www.brauerei-weihenstephan.de/index.php?page=home_2_1&'
+  }
+  {
+    "name":"Weltenburger Kloster",
+    "city":"Germany",
+    "link":'http://www.weltenburger.de/'
+  }
+  {
+    "name":"Whistler",
+    "city":"Whistler, BC",
+    "link":'http://www.whistlerbeer.com/'
+  }
+  {
+    "name":"Widmer",
+    "city":"Portland, OR",
+    "link":'http://www.widmer.com/'
+  }
 ];
