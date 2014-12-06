@@ -61,7 +61,8 @@
 				<p><a href="menus/LateNiteHappyHour.pdf">Late night happy hour menu</a></p>
 			</section> -->
 			<section id="info">
-				<section id="burgers">
+				<h1>Menu</h1>
+				<!--<section id="burgers">
 					<h1>Burgers</h1>
 				</section>
 				<section id="sandwich">
@@ -75,12 +76,22 @@
 				</section>
 				<section id="dessert">
 					<h1>Desserts</h1>
-				</section>
+				</section>-->
+				<a class="media" href="menus/LunchDinner.pdf">Main Menu</a>
+				<div id="the-canvas"></div>
 			</section>
 			<footer>
 				<p>&copy; Shultzy's
 				</p>
 			</footer>
 		</main>
+
+		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="http://github.com/malsup/media/raw/master/jquery.media.js?v0.92"></script>
+		<script type="text/javascript" src="jquery.metadata.js"></script>
+		<script type="text/javascript">
+			$('a.media').media({width:500, height:400});
+		</script>
+		<!--<script src="js/app_menu.js"></script>-->
 	</body>
 </html>
