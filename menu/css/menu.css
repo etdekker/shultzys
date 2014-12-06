@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+main {
+	font-family: 'Roboto Slab', serif;
+}
+
+#mobileBrand {
+	display: none;
+}
+
+#navbarContainer {
+	padding: 0px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+#navbar {
+	padding: 5px;
+	/* float: right; */ 
+	margin-left: 110px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 5px;
+	padding-bottom: 15px;
+	position: absolute;
+}
+
+#navbar .active a {
+	background-color: inherit;
+}
+
+#navbar li {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Carousel base class */
+.carousel, .carousel-control, .carousel .item {
+	height: 85vh;
+} 
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  	z-index: 10;
+} 
+
+.carousel-inner > .item > img {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: auto;
+  	min-height: 550px;
+  	min-width: 768px;
+}
+
+.carousel-indicators {
+	left: 100px;
+}
+
+
+footer {
+	bottom: 0;
+	background-color: #222222;
+	color: white;
+	padding: 0.75em;
+}
+
+/*About page*/
+#info {
+	padding: 2em;
+	/* background-image: url('../img/lightgray.jpg'); */
+	background: rgba(215, 213, 207, 0.9);
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutbackground {
+	background-image: url('../img/aboutBackground.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#map-canvas {
+	width: 350px;
+	height: 250px;
+	display: none;
+}
+
+/*.media {
+	width: 50%;
+}*/
+
+@media (max-width: 767px) {
+	#mobileBrand {
+		display: block;
+		padding: 0.8em;
+	}
+
+	.navbar-brand img {
+		display: none;
+	}
+
+	#navbar {
+		margin-left: 20px;
+	}
+
+	#map-canvas {
+		width: 225px;
+		height: 150px;
+	}
+}
