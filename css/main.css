@@ -88,10 +88,24 @@ footer {
 }
 
 #map-canvas {
-	width: 350px;
-	height: 250px;
-	display: none;
+	width: 50%;
+	height: 50vh;
+	margin: 25px;
+	margin-top: 0px;
+	float: right;
 }
+
+/*
+#title {
+	color: #F0620D;
+	background-color: #EFCD86;
+	padding-left: 90px;
+	margin-left: 55px;
+}
+h1 {
+	margin: 0;
+}
+*/
 
 @media (max-width: 767px) {
 	#mobileBrand {
@@ -108,7 +122,6 @@ footer {
 	}
 
 	#map-canvas {
-		width: 225px;
-		height: 150px;
+		display: none;
 	}
 }
