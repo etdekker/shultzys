@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shultzy's Blog</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="lib/angular.js"></script>
+	</head>
+	<body>
+		<main class="container" ng-app="BlogApp" ng-controller="BlogController">
+			<h1>Shultzy's Blog</h1>
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" ng-repeat="post in posts">
+					<div class="panel-heading" role="tab" id="heading{{post.number}}">
+						<h5>
+							{{post.date}}
+						</h5>
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse{{post.number}}" aria-controls="collapse{{post.number}}">
+								{{post.title}}
+							</a>
+						</h2>
+					</div>
+					<div id="collapse{{post.number}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{post.number}}">
+						<div ng-repeat="image in post.images">
+							<img src="img/{{image}}"/>
+						</div>
+						<p>
+							{{post.body}}
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="js/posts.js"></script>
+        <script src="js/app.js"></script>
+	</body>
+</html>
