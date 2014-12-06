@@ -93,6 +93,10 @@ footer {
 	display: none;
 }
 
+/*.media {
+	width: 50%;
+}*/
+
 @media (max-width: 767px) {
 	#mobileBrand {
 		display: block;
