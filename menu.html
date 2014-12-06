@@ -2,21 +2,55 @@
 <html>
 	<head>
 		<title>Shultzy's Menu</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
 	</head>
 	<body>
 		<main>
 			<header>
-				<h1>Menu</h1>
-				<nav role="navigation">
-					 <ul>
-				        <li><a href="#burgers">Burgers</a></li>
-				        <li><a href="#sandwich">Sandwiches</a></li>
-				        <li><a href="#salad">Salads</a></li>
-				        <li><a href="#soup">Soup</a></li>
-				        <li><a href="#dessert">Desserts</a></li>
-				        <li><a href="#drinks">Drinks</a></li>
-				    </ul>
-				</nav>
+				<div class="navbar-wrapper">
+			      	<div id="navbarContainer" class="container-fluid">
+				        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			            	<div class="navbar-header">
+			              		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				                	<span class="sr-only">Toggle navigation</span>
+				                	<span class="icon-bar"></span>
+				                	<span class="icon-bar"></span>
+				                	<span class="icon-bar"></span>
+				             	</button>
+			              		<a class="navbar-brand" href="#">
+			              			<img src="img/shultzypic.jpg" alt="Shultzy's logo" class="img-circle">
+			              			<span id="mobileBrand">Shultzy's Sausage</span>
+			              		</a>
+			            	</div>
+
+			            	<div id="navbar" class="navbar-collapse collapse">
+				              	<ul class="nav navbar-nav">
+					                <li class="active"><a href="#">Home</a></li>
+					                <li><a href="about.html">About</a></li>
+					                <!-- <li><a href="#menu">Menu</a></li> -->
+
+									<li class="dropdown">
+                  						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+                  						<ul class="dropdown-menu" role="menu">
+                    						<li><a href="#">Main Menu</a></li>
+                    						<li><a href="#">Drinks</a></li>
+						                    <li class="divider"></li>
+						                    <li class="dropdown-header">Happy Hour</li>
+						                    <li><a href="#">Happy Hour</a></li>
+						                    <li><a href="#">Late Night Happy Hour</a></li>
+                  						</ul>
+                					</li>
+
+					                <li><a href="#beers">Beers</a></li>
+					                <li><a href="#blog">Blog</a></li>
+					                <li><a href="#events">Events</a></li>
+					                <li><a href="#store">Store</a></li>
+				              	</ul>
+			            	</div>
+				        </nav>
+				    </div>
+				</div>
 			</header>
 			<section id="happyHour">
 				<h1>Shultzy's Happy Hour</h1>
