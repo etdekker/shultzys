@@ -4,7 +4,7 @@ iframe {
 	/*width: 20em;*/
 }
 
-div.media {
+.media {
 	width: 20px;
 }
 
@@ -17,6 +17,6 @@ div.media {
 
 @media (max-width: 767px) {
 	#the-canvas {
-		/*display: none;*/
+		display: none;
 	}
 }
