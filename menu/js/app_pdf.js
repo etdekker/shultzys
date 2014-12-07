@@ -2,7 +2,7 @@
 
 'use strict';
 
-var w = 400;
+var w = 450;
 var h = 500;
 
 $('a.media').media({width:w, height:h});
