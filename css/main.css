@@ -42,7 +42,7 @@ main {
 
 /* Carousel base class */
 .carousel, .carousel-control, .carousel .item {
-	height: 85vh;
+	height: 93.7vh;
 } 
 
 /* Since positioning the image, we need to help out the caption */
@@ -56,20 +56,27 @@ main {
   	left: 0;
   	width: 100%;
   	height: auto;
-  	min-height: 550px;
-  	min-width: 768px;
+  	min-height: 950px;
+  	min-width: 1300px;
 }
 
 .carousel-indicators {
-	left: 100px;
+	left: 75px;
+	bottom: 15px;
 }
 
 
 footer {
+	position: fixed;
 	bottom: 0;
+	right: 0;
 	background-color: #222222;
 	color: white;
-	padding: 0.75em;
+	padding: 0.5em;
+}
+
+footer img {
+	margin-right: 5px;
 }
 
 /*About page*/
@@ -143,6 +150,9 @@ h1 {
 	#title {
 		font-size: 50%;
 		-webkit-text-stroke: 1px black; 
-
 	}
+
+	.carousel, .carousel-control, .carousel .item {
+		height: 94.8vh;
+	} 
 }
