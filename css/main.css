@@ -129,6 +129,10 @@ h1 {
 }
 
 @media (max-width: 767px) {
+	main, #info{
+		width: 100%;
+		font-size: 8pt;
+	}
 	#mobileBrand {
 		display: block;
 		padding: 0.8em;

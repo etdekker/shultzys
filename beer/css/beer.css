@@ -14,13 +14,14 @@ main{
 header, #title {
 		font-family: 'Roboto Slab', serif;
 }
-main > ul {
+main ul {
 	list-style-type: none;
 }
 .item {
 	text-align: center;
+	padding: 1%;
 }
-main > img {
+main img {
 	max-height: 200px;
 	max-width: 200px;
 }
@@ -37,7 +38,6 @@ main > img {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	margin-top: 20px;
 	margin-bottom: 0;
 	border-radius: 16px;
 	display: flex;
@@ -56,16 +56,7 @@ main > img {
 @media (max-width: 767px) {
 	main{
 		width: 100%;
-		margin: 0;
-		padding-top: 0;
-		padding: 10px;
 		font-size: 8pt;
-	}
-	#mtitle {
-		display: block;
-	}
-	#title {
-		display: none;
 	}
 }
 
