@@ -8,6 +8,10 @@
 	width: 20px;
 }*/
 
+#info img {
+	width: 100%;
+}
+
 #the-canvas {
 	padding: 5% 10%;
 	font-style: italic;
