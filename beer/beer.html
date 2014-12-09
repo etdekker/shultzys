@@ -6,18 +6,70 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/beer.css">
 	<link rel="icon" href="img/favicon.ico">
-
-	<script src="lib/angular-1.3.1/angular.js"></script>
+	<link rel="stylesheet" href="../css/main.css">
 </head>
-<body style="background-color:rgb(207, 205, 140)">
-	<main>
+<body>
+		<header>
+				<div class="navbar-wrapper">
+			      	<div id="navbarContainer" class="container-fluid">
+				        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			            	<div class="navbar-header">
+			              		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				                	<span class="sr-only">Toggle navigation</span>
+				                	<span class="icon-bar"></span>
+				                	<span class="icon-bar"></span>
+				                	<span class="icon-bar"></span>
+				             	</button>
+			              		<a class="navbar-brand" href="#">
+			              			<img src="../img/shultzypic.jpg" alt="Shultzy's logo" class="img-circle">
+			              			<span id="mobileBrand">Shultzy's Sausage</span>
+			              		</a>
+			            	</div>
+
+			            	<div id="navbar" class="navbar-collapse collapse">
+				              	<ul class="nav navbar-nav">
+					                <li><a href="../index.html">Home</a></li>
+					                <li><a href="../about.html">About</a></li>
+
+									<li class="dropdown">
+                  						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+                  						<ul class="dropdown-menu" role="menu">
+                    						<li><a href="../menu/menu.html">Main Menu</a></li>
+                    						<li><a href="../menu/drinks.html">Drinks</a></li>
+						                    <li class="divider"></li>
+						                    <li class="dropdown-header">Happy Hour</li>
+						                    <li><a href="../menu/happyhour.html">Happy Hour</a></li>
+						                    <li><a href="../menu/latehappyhour.html">Late Night Happy Hour</a></li>
+                  						</ul>
+                					</li>
+
+					                <li class="active"><a href="../beer/beer.html">Beers</a></li>
+					                <li><a href="../blog/blog.html">Blog</a></li>
+					                <li><a href="http://www.cafepress.com/shultzys">Store</a></li>
+				              	</ul>
+			            	</div>
+				        </nav>
+				    </div>
+				</div>
+			</header>
+			<div id="title">
+				<h1>Shultzy's Beers</h1>
+				</div>
+			<main>
+				
 		<button id="list" role="button" onclick = "list()">List</button>
 		<button id="grid" onclick = "grid()">Grid</button>
 		<div id="page"></div>
 		<ul id="beer"></ul>
-	
+		<footer>
+				<a href="http://www.facebook.com/shultzys"><img src="../img/socialmedia/facebook-32.png"/></a>
+				<a href="http://www.twitter.com/shultzys"><img src="../img/socialmedia/twitter-32.png"/></a>
+				<a href="http://www.iconosquare.com/tag/shultzys"><img src="../img/socialmedia/instagram-32.png"/></a>
+			</footer>
 	</main>
 	<script type="text/javascript" src="js/beerlist.js"></script>
 	<script type="text/javascript" src="js/beer.js"></script>
+	<script type="text/javascript" src="../menu/js/jquery-2.1.1.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

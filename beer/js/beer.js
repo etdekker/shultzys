@@ -1,7 +1,5 @@
 "use strict";
 
-console.log(beerlist[0].name);
-
 var beer = document.getElementById("beer");
 var test = document.getElementById("test");
 var main = document.getElementById("page");
