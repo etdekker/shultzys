@@ -48,12 +48,4 @@ main > img {
 #grid {
 	display: none;
 }
-@media (max-width: 767px){
-	#page, #list, #grid{
-		display: none;
-	}
-	#beer{
-		display: block;
-	}
-}
 
