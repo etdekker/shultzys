@@ -90,6 +90,10 @@ footer img {
 	margin-right: auto;
 }
 
+#info h1 {
+	display: none;
+}
+
 #aboutbackground {
 	background-image: url('../img/aboutBackground.jpg');
 	background-size: cover;
@@ -152,10 +156,15 @@ h1 {
 
 	#title {
 		font-size: 50%;
-		-webkit-text-stroke: 1px black; 
+		-webkit-text-stroke: 1px black;
+		display: none;
 	}
 
 	.carousel, .carousel-control, .carousel .item {
 		height: 94.8vh;
 	} 
+
+	#info h1 {
+		display: block;
+	}
 }
