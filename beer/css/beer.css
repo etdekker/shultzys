@@ -3,11 +3,9 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
-body > main{
+main{
 	padding: 2em;
 	padding-top: 8px;
-	/* background-image: url('../img/lightgray.jpg'); */
-	/* background: rgba(215, 213, 207, 0.9); */
 	background: rgba(250, 250, 250, 0.9);
 	width: 75%;
 	margin-left: auto;
@@ -26,9 +24,12 @@ main > img {
 	max-height: 200px;
 	max-width: 200px;
 }
-.item:hover{
-	background-color: gray;
-	border-radius: 16px;
+.item:hover .thumbnail{
+	border: 2px solid gray;
+	clear: all;
+}
+
+.item:hover {
 	cursor: pointer;
 }
 .thumbnail {
@@ -47,5 +48,24 @@ main > img {
 }
 #grid {
 	display: none;
+}
+
+#mtitle{
+	display: none;
+}
+@media (max-width: 767px) {
+	main{
+		width: 100%;
+		margin: 0;
+		padding-top: 0;
+		padding: 10px;
+		font-size: 8pt;
+	}
+	#mtitle {
+		display: block;
+	}
+	#title {
+		display: none;
+	}
 }
 
